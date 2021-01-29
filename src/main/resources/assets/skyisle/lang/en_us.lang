@@ -1,0 +1,25 @@
+generator.islands=SkyIslands
+
+commands.island.usage=/island <create|return|visit|list|lock|unlock|info> [player_name]
+commands.island.only_server=You must be on the server to run this command!
+commands.island.invalid_world_type=Your world has invalid type for this command to work! You must create SkyIslands world type to use that commandcommands.island.invalid_dimension=You are currently in invalid dimension! Return to Overworld and try againgenerator.islands=SkyIslands
+commands.island.invalid_dimension=You are in invalid dimension for this command to work! Return to Overworld and try again
+commands.island.island_already_exists=You are already have your island. Type "/island return" to return to your island
+commands.island.island_not_exists=You don't have an island. To create an island type "/island create" command
+commands.island.teleport_successful=§aYou've successfully teleported to your island or bed!
+commands.island.successfully_created=§aYour island was successfully created
+commands.island.list_title=There is a list of available islands on server:
+commands.island.list_tip=To visit a island type "/island visit <player_name>"
+commands.island.visit_successful=§aYou are visiting %s §aisland. Type "/island return" to return to your island
+commands.island.visit_locked=§cYou cant visit this player island because owner locked it
+commands.island.visit_no_island_found=Player doesn't have an island!
+commands.island.visit.usage=/island visit <player_name>
+commands.island.island_locked=§aYour island is locked for visitors!
+commands.island.island_unlocked=§cYour island is unlocked for visitors!
+commands.island.info.usage=/island info [player_name]
+commands.island.info.island_not_exists=%s doesn't have an island!
+commands.island.info.title=There is information about island:
+commands.island.info.ownerName=§9Owner§r: §a%s
+commands.island.info.ownerUUID=§9Owner ID§r:  [§a%s§r]
+commands.island.info.location=§9Island location§r: [§a%s§r]
+commands.island.info.isLocked=§9Is island locked§r: %s%s

@@ -1,0 +1,25 @@
+generator.islands=SkyIslands
+
+commands.island.usage=/island <create|return|visit|list|lock|unlock|info> [player_name]
+commands.island.only_server=Вы должны находится на сервере для того чтобы выполнить данную команду!
+commands.island.invalid_world_type=Тип вашего мира не соответствует корректному! Вы должны создать мир с типом SkyIslands чтобы использовать данную команду
+commands.island.invalid_dimension=Вы находитесь в некорректном измерении для выполнения данной команы! Вернитесь в Overworld и попробуйте снова
+commands.island.island_already_exists=У вас уже есть остров. Введите "/island return" чтобы вернуться на ваш остров
+commands.island.island_not_exists=У вас нет острова. Чтобы создать остров введите "/island create"
+commands.island.teleport_successful=§aВы успешно телепортированы на ваш остров или к кровати!
+commands.island.successfully_created=§aВаш остров успешно создан!
+commands.island.list_title=Это доступные острова на сервере:
+commands.island.list_tip=Чтобы посетить остров, введите "/island visit <player_name>"
+commands.island.visit_successful=§aВы посещаете остров %s§a. Введите "/island return" чтобы вернуться на свой остров
+commands.island.visit_locked=§cВы не можете посетить остров данного игрока так как владелец закрыл остров
+commands.island.visit_no_island_found=У игрока нет острова!
+commands.island.visit.usage=/island visit <player_name>
+commands.island.island_locked=§aВаш остров закрыт для посетителей!
+commands.island.island_unlocked=§cВаш остров открыт для посетителей!
+commands.island.info.usage=/island info [player_name]
+commands.island.info.island_not_exists=У %s нет острова!
+commands.island.info.title=Ниже информация об острове:
+commands.island.info.ownerName=§9Владелец§r: §a%s
+commands.island.info.ownerUUID=§9ИД владельца§r: [§a%s§r]
+commands.island.info.location=§9Месторасположение§r: [§a%s§r]
+commands.island.info.isLocked=§9Остров закрыт§r: %s%s
