@@ -13,6 +13,7 @@ It generates a spawn island at 0,0 with a chest contatining:
  - 1 Water Bucket
  - 32 Bone Meal
  - 3 Sugar Canes
+ 
 Also players can generate their own islands with command `/island create`
 
 ## Server commands
