@@ -19,6 +19,7 @@ Also players can generate their own islands with command `/island create`
 ## Server commands
 **All commands are server-only**
 Command | Description
+---|---
 `/island create` | Creates new island for player
 `/island return` | Returns player to his island if it exists
 `/island visit <player_name>` | Teleports player to another player island
