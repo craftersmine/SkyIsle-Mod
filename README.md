@@ -1,5 +1,6 @@
 # SkyIsle-Mod
  SkyBlock island generator for multiplayer
+[![Download from CurseForge](https://img.shields.io/badge/Download-CurseForge-orange)](https://www.curseforge.com/minecraft/mc-mods/skyisle)
 
 ## Description
 It is recommended to play with ExNihilo Creatio mod
